@@ -1,6 +1,6 @@
 <?php
 
-namespace milkycode\Deepltranslator\Traits;
+namespace Ionutgrecu\Deepltranslator\Traits;
 
 use GuzzleHttp\Client;
 

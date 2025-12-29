@@ -1,6 +1,6 @@
 <?php
 
-namespace milkycode\Deepltranslator\Commands;
+namespace Ionutgrecu\Deepltranslator\Commands;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

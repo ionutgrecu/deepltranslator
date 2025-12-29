@@ -1,5 +1,5 @@
 {
-    "name": "milkycode/deepltranslator",
+    "name": "ionutgrecu/deepltranslator",
     "description": "Will translate all files inside a laravel project using the DeepL API and exports it to the requested language",
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "milkycode\\Deepltranslator\\": "src"
+            "Ionutgrecu\\Deepltranslator\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "milkycode\\Deepltranslator\\DeeplTranslatorServiceProvider"
+                "Ionutgrecu\\Deepltranslator\\DeeplTranslatorServiceProvider"
             ]
         }
     },
@@ -32,6 +32,10 @@
         {
             "name": "Christian Hinz",
             "email": "christian@milkycode.com"
+        },
+        {
+            "name": "Ionut Grecu",
+            "email": "ionut@grecu.eu"
         }
     ]
 }

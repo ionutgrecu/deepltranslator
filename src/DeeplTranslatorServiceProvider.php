@@ -1,8 +1,8 @@
 <?php
 
-namespace milkycode\Deepltranslator;
+namespace Ionutgrecu\Deepltranslator;
 
-use milkycode\Deepltranslator\Commands\DeeplTranslator;
+use Ionutgrecu\Deepltranslator\Commands\DeeplTranslator;
 use Illuminate\Support\ServiceProvider;
 
 class DeeplTranslatorServiceProvider extends ServiceProvider

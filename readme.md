@@ -73,7 +73,7 @@ This will do exactly the same as translating all files but instead will only tak
 ```php
 namespace App\Http\Controllers;
 
-use milkycode\Deepltranslator\Traits\DeepltranslatorTrait;
+use Ionutgrecu\Deepltranslator\Traits\DeepltranslatorTrait;
 
 class MyTestController extends Controller
 {
