@@ -61,7 +61,7 @@ trait DeepltranslatorTrait
 
         foreach ($to as $toLang) {
             $params = [
-                'tag_handling' => 'xml',
+                'tag_handling' => 'html',
                 'ignore_tags' => config('deepltranslator.ignore_tags'),
                 'source_lang' => strtoupper($from),
                 'target_lang' => strtoupper($toLang),
