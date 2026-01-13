@@ -7,13 +7,13 @@ Will translate all files inside a laravel project using the DeepL API and export
 Installation can be done through composer
 
 ``
-composer require milkycode/deepltranslator
+composer require ionutgrecu/deepltranslator
 ``
 
 Publishing the config file
 
 ``
-php artisan vendor:publish --provider="milkycode\Deepltranslator\DeeplTranslatorServiceProvider" --force
+php artisan vendor:publish --provider="ionutgrecu\Deepltranslator\DeeplTranslatorServiceProvider" --force
 ``
 
 Add API Key to .env file or in config/deepltranslator.php
