@@ -24,6 +24,7 @@ trait DeepltranslatorTrait
         "JA",
         "LT",
         "LV",
+        "NB",
         "NL",
         "PL",
         "PT-PT",
